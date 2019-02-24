@@ -56,6 +56,20 @@ li a:hover {
   background-color: black;
 }
 
+/* CSS for galler grid */
+
+.gallery img{
+	width: 250px;
+
+}
+.gallery{
+	display: grid;
+	grid-template-columns: 300px 500px 300px;
+	grid-template-columns: 300px auto 300px;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+
 footer {
   background-color: #515200;
 }
